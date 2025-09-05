@@ -24,6 +24,19 @@ This is a .NET sample application for controlling LEDs using the PCA9685 PWM con
 ## Usage
 1. Install .NET 8.0 or newer on your Raspberry Pi.
 2. Clone this repository and navigate to the project directory.
-3. Run the application:
+3. Restore dependencies:
+   ```sh
+   dotnet restore
+   ```
+4. Build the project:
+   ```sh
+   dotnet build
+   ```
+5. Run the application:
    ```sh
    dotnet run
+   ```
+6. Observe the LEDs fading and blinking independently.
+
+## License
+MIT
