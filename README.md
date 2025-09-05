@@ -4,6 +4,7 @@ This is a .NET sample application for controlling LEDs using the PCA9685 PWM con
 
 ## Features
 - Fade and blink multiple LEDs independently and concurrently
+- The first 3 outputs (channels 0, 1, and 2) each randomly and concurrently blink or fade, creating a dynamic light show
 - Randomized timing and effects for each output
 - Easy to modify for other PWM applications
 
@@ -36,7 +37,7 @@ This is a .NET sample application for controlling LEDs using the PCA9685 PWM con
    ```sh
    dotnet run
    ```
-6. Observe the LEDs fading and blinking independently.
+6. Observe the first 3 LEDs fading and blinking independently, with each channel randomly choosing to blink or fade and running concurrently.
 
 ## License
 MIT
